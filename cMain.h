@@ -8,7 +8,6 @@ public:
 	~cMain();
 
 private:
-	//MAYBE SHOULD ORGANIZE ALL OF THESE AS THEY GO DOWN THE PAGE IN cMain...
 	wxStaticText* input_label_1;
 	wxTextCtrl* input_box_1;
 
@@ -104,7 +103,7 @@ private:
 	wxButton* seq_2_tower_of_hanoi;
 
 public:
-	void OnSpliceButtonClicked(wxCommandEvent& evt); //event handler function
+	void OnSpliceButtonClicked(wxCommandEvent& evt); //event handler functions
 	void OnReplSeq1ButtonClicked(wxCommandEvent& evt);
 	void OnReplSeq2ButtonClicked(wxCommandEvent& evt);
 	void OnMvOutToSeq1ButtonClicked(wxCommandEvent& evt);
@@ -132,7 +131,7 @@ public:
 	void OnMvSeq1ToHoldThis2ButtonClicked(wxCommandEvent& evt);
 	void OnMvSeq2ToHoldThis1ButtonClicked(wxCommandEvent& evt);
 	void OnMvSeq2ToHoldThis2ButtonClicked(wxCommandEvent& evt);
-	
+
 	template <class flam>
 	std::string whatev_to_string(std::vector <flam> incoming_vect, bool keep_commas);
 	std::vector <int> comma_sep_str_to_int_vector(std::string str);
@@ -160,9 +159,6 @@ public:
 		void hanoi(int n, int f, int h, int t); //n - # of discs, f - from, h - helper pole (go between), t - to
 
 	};
-
-	//template <class T>
-	//void remove_all_of_certain_whatever_from_vector(std::vector <T> &the_vector, T certain_whatever);
 	
 	wxDECLARE_EVENT_TABLE(); //macro to get event table to be able to listen and handle stuff I guess
 

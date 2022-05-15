@@ -328,10 +328,8 @@ void cMain::OnSpliceButtonClicked(wxCommandEvent& evt) {
 		both_vectors.push_back(ints_in_a_vector_2);
 		
 		std::string str_to_print = whatev_to_string(multiple_vectors_to_one_vector_one_element_by_one_element(both_vectors), true);
-		//list_box_1->AppendString(str_to_print);
 
 		output_box_1->ChangeValue(str_to_print);
-		//input_box_1->ChangeValue(str_to_print);
 
 		evt.Skip();
 	}
@@ -340,8 +338,6 @@ void cMain::OnSpliceButtonClicked(wxCommandEvent& evt) {
 	}
 }
 
-//NEED TO CHANGE BOTH OF THESE REPLACE FUNCTIONS TO BE ABLE TO REPLACE MORE THAN ONE THING 
-//AND INSERT MORE THAN ONE THING IN THE SPOT...
 void cMain::OnReplSeq1ButtonClicked(wxCommandEvent& evt){
 	try{
 
