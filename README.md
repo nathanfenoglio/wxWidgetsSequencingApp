@@ -6,8 +6,6 @@ https://app.box.com/folder/163005362461?s=xfcio6glciu63e0uqhwhqmjvi1tb092r
 
 <h2 align="center">Operations: </h2>
 
-## Operations: 
-
 - **Mod By Add By**: mod each # in sequence by "mod by" value then add "add by" value 
 - **Add By Mod By**: add each # in sequence by "add by" value then mod by "mod by" value 
 - **Rotate Left**: rotates the sequence to the left with the leftest # wrapping around to the rightest most index 
@@ -18,3 +16,5 @@ https://app.box.com/folder/163005362461?s=xfcio6glciu63e0uqhwhqmjvi1tb092r
 - **apply replacement**: replace a substring in whichever sequence with another substring 
 - **splice sequences**: takes 1 element from 1 sequence and then 1 element from the other sequence repeatedly until both sequences are interleaved 
 - **multiply sequences by scalars add together mod by**: multiplies each sequence by respective specified scalar, adds sequences together, then mods by "mod by" value
+
+![alt text](https://github.com/nathanfenoglio/wxWidgetsSequencingApp/blob/master/images/Take2SequencesAndDoABunchOfStuffImage.jpg)
